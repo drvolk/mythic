@@ -1,0 +1,69 @@
+Das Spiel hat folgende Komponenten:
+
+- Spiel Aktions Tasten
+- Informationsfenster
+- Spielfläche
+- Räume 
+- Wände
+- Schalter
+- Zugänge
+- Spielsteine
+- Spielrunde
+- Aktionspunkte
+- Spieler
+
+Spiel Aktions Tasten:
+Je nach Spielmodus werden hier Tasten für die möglichen Aktionen dargestellt.
+Die Darstellung kann in einem reservierten Bereich der Anzeige dargestellt werden oder als Kontextmenu.
+
+Informationsfenster:
+Hier werden (i.d.R) Textinformationen je nach Kontext auf der Anzeige dargestellt.
+
+Spielfläche:
+Das ist die Fläche auf der alle Räume dargestellt werden.
+Auf der Anzeige wird ein Bereich der Spielfläche angezeigt.
+
+Räume:
+Sind Flächen die auf dem Spielfeld angeordnet werden und durch Zugänge verbunden werden können.
+Räume sind mit einer Wand umrandet.
+Räume können Spielsteine enthalten.
+
+Wände:
+Wände könnnen Zugänge enthalten. Anonsten sind Wände undurchdringlich und unbeweglich.
+
+Schalter:
+Schalter können aktiviert oder deaktiviert werden. Sie können eine Aktion auslösen oder einen Status ändern, 
+setzen.
+
+Zugänge:
+Zugänge verbinden Räume miteinander. Sie können verschlossen (Schalter) oder versteckt sein. 
+Sie können Fallen enthalten.
+
+Spielsteine:
+Spielsteine können in Räume hineingesetzt oder rausgenommen werden. Es gibt zwei Arten von Spielsteinen:
+- Gegenstände
+- Figuren
+
+Gegenstände:
+Gegenstände können in Räumen platziert werden. Sie belegen eine oder mehrere Raumflächeneinheiten. 
+Sie können flach, mittelhoch oder hoch sein. 
+Gegenstände können ggf. bewegt, eingepackt,benutzt, aktiviert, deaktiviert oder zerstört werden. 
+
+Figuren:
+Figuren sind Spieler Figuren (Helden) oder Nicht Spieler Figuren (i.d.R. Monster).
+Figuren können sich bewegen.
+Figuren können Schalter aktivieren, deaktivieren
+Figuren können Gegenstände benutzen, aufnehmen, untersuchen, ausrüsten, zerstören, bewegen.
+Figuren können Räume durchsuchen, nach Fallen und Verstecken.
+Figuren können gegen andere Figuren kämpfen
+Figuren können Schaden austeilen und einstecken.
+
+Spielrunde:
+In einer Spielrunde kann jeder Spieler Aktionen über seine Spielfigure durchführen.
+Jeder Spieler hat eine begrenzte Anzahl von Aktionspunkten/Spielrunde.
+Wenn jeder Spieler das Ende seiner Aktionen bestätigt hat (geschieht automatisch wenn alle 
+Aktionspunkte aufgebraucht werden) wird die Spielrunde der "Nichtspielerfiguren" ausgewertet.
+Danach folgt eine neue Spielrunde.
+
+
+
